@@ -96,8 +96,20 @@ span {
   font-weight: bold;
   color: #333;
 }
-/* CSS for back button */
+/* CSS for the button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
 
+.btn:hover {
+  background-color: #2E4053;
+}
 /* CSS for the footer */
 footer {
   background-color: #CBC3E3;
