@@ -97,7 +97,7 @@ span {
   color: #333;
 }
 /* CSS for the button */
-.btn {
+.btnback {
   display: inline-block;
   padding: 10px 20px;
   background-color: black;
@@ -107,7 +107,7 @@ span {
   font-size: 16px;
 }
 
-.btn:hover {
+.btnback:hover {
   background-color: #2E4053;
 }
 /* CSS for the footer */
