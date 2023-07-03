@@ -97,18 +97,6 @@ span {
   color: #333;
 }
 /* CSS for back button */
-.goback-button {
-  background-color: Black;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.goback-button:hover {
-  background-color: grey;
-}
 
 /* CSS for the footer */
 footer {

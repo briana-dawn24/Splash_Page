@@ -5,7 +5,7 @@ document.getElementById("btn").addEventListener("click", function()
 });
 
 // Javascript code to handle back button
-  document.querySelector(".goback-button").addEventListener("click", function()
+  document.querySelector("btnback").addEventListener("click", function()
   {
     goBack();
   });
