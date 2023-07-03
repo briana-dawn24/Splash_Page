@@ -74,6 +74,7 @@ h1{
 .Poverty{
     position: absolute;
     left: 2%;
+    top: 5%;
     height: 20%;
     width: 20%;
     border: 10px solid black;
