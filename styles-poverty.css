@@ -234,3 +234,25 @@ audio{
     left: 60%;
     bottom: 7%;
 }
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .btnback {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btnback:hover {
+    background-color: grey;
+  }
