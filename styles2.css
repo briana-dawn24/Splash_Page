@@ -105,9 +105,9 @@ span {
   text-decoration: none;
   border-radius: 4px;
   font-size: 16px;
-  position: relative; /* Add this line */
-  top: 50%; /* Add this line */
-  transform: translateY(-50%); /* Add this line */
+  position: relative; 
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .btnback:hover {
