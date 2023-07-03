@@ -91,7 +91,6 @@ h2 {
 p {
   font-size: 18px;
 }
-
 /* CSS for the span elements holding the product details */
 span {
   font-weight: bold;
@@ -99,16 +98,16 @@ span {
 }
 /* CSS for back button */
 .goback-button {
-  background-color: #4CAF50; /* Green background */
-  color: white; /* White text color */
-  border: none; /* No border */
-  padding: 10px 20px; /* Padding around the button */
-  font-size: 16px; /* Font size */
-  cursor: pointer; /* Show pointer cursor on hover */
+  background-color: Black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .goback-button:hover {
-  background-color: #45a049; /* Darker green background on hover */
+  background-color: grey;
 }
 
 /* CSS for the footer */
