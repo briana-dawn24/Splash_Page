@@ -105,9 +105,8 @@ span {
   text-decoration: none;
   border-radius: 4px;
   font-size: 16px;
-  position: relative; 
+  position: absolute; 
   top: 50%;
-  transform: translateY(-50%);
 }
 
 .btnback:hover {
