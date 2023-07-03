@@ -1,0 +1,281 @@
+/*
+Name: Briana Campbell
+Date: 11/07/2022
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, article, figcaption, form, h2, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for header */
+header img{
+    display: block;
+    margin: auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #6F4E37;
+}
+
+body{
+    height: 300px;
+    background-color: #EADDCA;
+}
+
+header{
+    animation-name: m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+header h1{
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px 2px;
+    animation-name: m;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.head{
+    height: 75px;
+}
+
+.head h1{
+    font-family: sans-serif;
+    padding: 29px 20px;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 30px;
+}
+
+@keyframes m{
+    0% {background-color: #6F4E37;}
+    25% {background-color: #E1C16E;}
+    50% {background-color: #7B3F00;}
+    70% {background-color: #D27D2D;}
+    100% {background-color: #6F4E37;}
+}
+
+.contact{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Style rules for links */
+.links{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    display: inline;
+}
+
+/* Style rules for unordered lists */
+.lists{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+/* Style for rules for navigation area */
+nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 27px 20px;
+}
+
+nav li{
+    display: inline;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+/* Styles for main */
+main{
+    padding: 120px;
+    background-color: #EADDCA;
+}
+
+.aboutp{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    bottom: 30px;
+}
+
+.formp{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+.siblings{
+    font-family: sans-serif;
+}
+
+.copone-sibling{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+.copone-bed{
+    position: relative;
+    height: 170px;
+    border: 10px solid #6F4E37;
+}
+
+.flurry{
+    position: relative;
+    height: 170px;
+    border: 10px solid #6F4E37;
+}
+
+.flurry-sibling{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+.chef{
+    height: 250px;
+    border: 10px solid #6F4E37;
+    position: relative;
+    bottom: 30px;
+}
+
+.petecovering{
+    position: relative;
+    height: 250px;
+    float: right;
+    left: 60px;
+    border: solid #6F4E37 10px;
+}
+
+.food{
+    position: relative;
+    height: 230px;
+    margin: 5px;
+}
+
+.dessert{
+    position: relative;
+    height: 230px;
+    margin: 5px;
+}
+
+.green{
+    position: relative;
+    height: 230px;
+    margin: 5px;
+}
+
+.popcorn{
+    position: relative;
+    height: 230px;
+    margin: 5px;
+}
+
+/* Style rules for gallery */
+.pictures{
+    display: inline-block;
+    width: 180px;
+    padding: 18px;
+}
+
+.pictures img{
+    text-align: center;
+    width: 180px;
+    border: 10px solid #6F4E37;
+}
+
+.captions{
+    font-family: sans-serif;
+}
+
+
+/* Style rules for video */
+video{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    bottom: 80px;
+}
+
+/* Style rules for article */
+article{
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+article img{
+    float: right;
+    width: 200px;
+    object-fit: cover;
+    position: relative;
+    bottom: 50px;
+    border: 10px solid #6F4E37;
+}
+/* Style rules for table */
+table{
+    border: 10px solid #6F4E37;
+}
+
+table th{
+    font-family: sans-serif;
+    text-shadow: 2px 2px;
+    padding: 15px;
+    border: 10px solid #6F4E37;
+}
+
+table td{
+    padding: 15px;
+    border: 5px dashed #6F4E37; 
+}
+
+/* Style rules for form */
+form{
+    width: 520px;
+    height: 270px;
+    border: solid 10px #6F4E37;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30px;
+}
+
+.fName{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+.lName{
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+.email{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    left: 48px;
+}
+
+.submit{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    left: 180px;
+}
