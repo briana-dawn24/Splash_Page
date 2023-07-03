@@ -4,18 +4,12 @@ btn.addEventListener("click", function()
 {
     window.location.href = this.href;
 });
-// JavaScript code to populate the show page with data
-var product = 
-{
-name: "Example Product",
-description: "This is a sample product description.",
-price: "$19.99"
-};
+// Javascript code to handle back button
+var btn = document.querySelector(".goback-button");
+btn.addEventListener("click", function() {
+  goBack();
+});
 
-document.getElementById("product-name").textContent = product.name;
-document.getElementById("product-description").textContent = product.description;
-document.getElementById("product-price").textContent = product.price;
-function goBack() 
-{
-    history.back();
+function goBack() {
+  history.back();
 }
