@@ -4,8 +4,6 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* CSS for the header animation */
@@ -34,10 +32,13 @@ header {
     opacity: 1;
   }
 }
+
 img {
   width: 150px;
   height: 250px;
-  margin-bottom: 20px; /* Add this line to create space below the image */
+  position: absolute;
+  top: 99px;
+  left: 50px;
   animation: fadeInImage 1s ease;
 }
 
@@ -102,7 +103,4 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
