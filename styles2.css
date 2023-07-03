@@ -34,13 +34,10 @@ header {
     opacity: 1;
   }
 }
-
 img {
   width: 150px;
   height: 250px;
-  position: absolute;
-  top: 99px;
-  left: 50px;
+  margin-bottom: 20px; /* Add this line to create space below the image */
   animation: fadeInImage 1s ease;
 }
 
