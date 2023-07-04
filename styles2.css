@@ -97,9 +97,14 @@ span {
 
 /* CSS for the content area */
 .contact-area {
-  background-color: #f4f4f4;
+  background-color: #F4F4F4;
   padding: 20px;
   text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-area h2 {
