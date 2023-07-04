@@ -96,6 +96,15 @@ span {
 }
 
 /* CSS for the content area */
+@keyframes slideUpContact {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .contact-area {
   padding: 20px;
   text-align: center;
@@ -104,6 +113,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: slideUpContact 1s ease;
 }
 
 .contact-area h2 {
