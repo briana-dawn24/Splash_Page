@@ -95,6 +95,38 @@ span {
   color: #333;
 }
 
+/* CSS for the content area */
+.contact-area {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-area h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contatc-area p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-area ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-area li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-area li::before {
+  content: "\2022";
+  margin-right: 5px;
+}
+
 /* CSS for the footer */
 footer {
   background-color: #CBC3E3;
