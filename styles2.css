@@ -15,6 +15,11 @@ html, body {
   }
 }
 
+header {
+  background-color: #CBC3E3;
+  padding: 20px;
+  animation: slideIn 1s ease;
+}
 /* CSS for picture animation */
 @keyframes fadeInImage {
   0% {
