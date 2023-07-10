@@ -20,6 +20,7 @@ header {
   padding: 20px;
   animation: slideIn 1s ease;
 }
+
 /* CSS for picture animation */
 @keyframes fadeInImage {
   0% {
