@@ -32,8 +32,11 @@
         </ul>
     </div>
     <footer>
-        <!-- Insert JavaScript to keep the date updated... -->
-        <p>&copy; 2023 Briana Campbell. All rights reserved.</p>
+    <script>
+        const yearElement = document.querySelector("footer p");
+        const currentYear = new Date().getFullYear();
+        yearElement.innerHTML = `&copy; ${currentYear} Briana Campbell. All rights reserved.`;
+    </script>
     </footer>
 </body>
 </html>
