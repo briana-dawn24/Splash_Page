@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Splash Page ~ Bri</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <img src="Briana.PNG" alt="Image of Briana Campbell">
-    <section class = "explanation">
-        <h2>Explanation:</h2>
-        <p>Welcome to my show page, here you can find links to other websites that I have created.</p>
-        <p>I am looking for people that are interested in a website created by me.</p>
-    </section>
-    <div class="show-content">
-        <h2>Websites</h2>
-        <div class="product-details">
-            <h3><a href="index-pete.html">Animal Bibliography</a><span id="product-name1"></span></h3>
-            <p>Description: I created this website for a final project in school. This site took me 2-3 weeks to make. <span id="product-description"></span></p>
-            <h3><a href="index-poverty.html">Poverty Women</a><span id="product-name2"></span></h3>
-            <p>Description: I created this site for a final as well. I was given a topic to inform people of information that was important to myself and that should be to others.</p>
+    <head>
+        <title>Splash Page ~ Bri</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img src="Briana.PNG" alt="Image of Briana Campbell">
+        <section class = "explanation">
+            <h2>Explanation:</h2>
+            <p>Welcome to my show page, here you can find links to other websites that I have created.</p>
+            <p>I am looking for people that are interested in a website created by me.</p>
+        </section>
+        <div class="show-content">
+            <h2>Websites</h2>
+            <div class="product-details">
+                <h3><a href="index-pete.html">Animal Bibliography</a><span id="product-name1"></span></h3>
+                <p>Description: I created this website for a final project in school. This site took me 2-3 weeks to make. <span id="product-description"></span></p>
+                <h3><a href="index-poverty.html">Poverty Women</a><span id="product-name2"></span></h3>
+                <p>Description: I created this site for a final as well. I was given a topic to inform people of information that was important to myself and that should be to others.</p>
+            </div>
         </div>
-    </div>
-    <div class="contact-area" id="contact">
-        <h2>Contact</h2>
-        <p>If you have any questions or inquiries, feel free to reach out to me:</p>
-        <form action="mailto:brianacampbell4@icloud.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Send">
-        </form>
-    </div>
-    <footer>
-        <p>&copy; <span id="year"></span> Briana Campbell. All rights reserved.</p>
-    </footer>
-    <script>
-        const yearElement = document.getElementById("year");
-        const currentYear = new Date().getFullYear();
-        yearElement.textContent = currentYear;
-    </script>
-</body>
-</html>
+        <div class="contact-area" id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to me:</p>
+            <form action="mailto:brianacampbell4@icloud.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <footer>
+            <p>&copy; <span id="year"></span> Briana Campbell. All rights reserved.</p>
+        </footer>
+        <script>
+            const yearElement = document.getElementById("year");
+            const currentYear = new Date().getFullYear();
+            yearElement.textContent = currentYear;
+            </script>
+        </body>
+    </html>
