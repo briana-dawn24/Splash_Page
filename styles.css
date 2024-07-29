@@ -12,6 +12,31 @@ header {
   text-align: center;
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #4CAF50;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  border-radius: 4px;
+}
+
 img {
   display: block;
   margin: 0 auto;
