@@ -4,15 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/* CSS for the header animation */
-@keyframes slideIn {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 
 header {
   background-color: #4CAF50;
@@ -21,50 +12,17 @@ header {
   text-align: center;
 }
 
-/* CSS for picture animation */
-@keyframes fadeInImage {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
-/* CSS for product details animation */
-@keyframes slideUp {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.product-details {
-  max-width: 500px;
-  margin: 0 auto;
-  text-align: left;
-  animation: slideUp 1s ease;
-}
-
-/* CSS for h2 */
-h2 {
-  text-decoration: underline;
-}
 
 /* CSS for explanation area */
 .explanation {
-  text-align: center;
-  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
 }
 
 .explanation h2 {
