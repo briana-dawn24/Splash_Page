@@ -32,12 +32,10 @@ header {
 }
 
 img {
-  width: 150px;
-  height: 250px;
-  position: absolute;
-  top: 99px;
-  left: 50px;
-  animation: fadeInImage 1s ease;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 /* CSS for product details animation */
 @keyframes slideUp {
