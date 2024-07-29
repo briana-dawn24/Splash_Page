@@ -23,12 +23,13 @@ File Name: index-poverty.html
         </nav>
         <div class = "line"></div>
         <footer>
-            <script>
-                const yearElement = document.querySelector("footer p");
-                const currentYear = new Date().getFullYear();
-                yearElement.innerHTML = `&copy; ${currentYear} Briana Campbell. All rights reserved.`;
-            </script>            
+            <p>&copy; <span id="year"></span> Briana Campbell. All rights reserved.</p>
         </footer>
+        <script>
+            const yearElement = document.getElementById("year");
+            const currentYear = new Date().getFullYear();
+            yearElement.textContent = currentYear;
+        </script>
     </body>
         <audio controls>
             <source src = "reflectedlight-poverty.mp3" type = "audio/mp3">
