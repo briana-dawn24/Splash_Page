@@ -1,9 +1,8 @@
-/* CSS for centering the content */
-html, body {
-  height: 100%;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  padding: 0;
 }
 /* CSS for the header animation */
 @keyframes slideIn {
@@ -16,9 +15,10 @@ html, body {
 }
 
 header {
-  background-color: #CBC3E3;
-  padding: 20px;
-  animation: slideIn 1s ease;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
 }
 
 /* CSS for picture animation */
