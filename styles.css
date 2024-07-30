@@ -15,9 +15,9 @@ header {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   text-align: center;
   background-color: #4CAF50;
-  margin: 0;
   overflow: hidden;
 }
 
