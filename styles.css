@@ -61,8 +61,10 @@ h2 {
   color: #6200ea;
 }
 
-form {
-  justify-content: center;
+.contact-area form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
