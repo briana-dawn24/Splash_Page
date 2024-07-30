@@ -3,11 +3,11 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #AB0749;
 }
 
 header {
-  background-color: #6200ea;
+  background-color: #FFFFFF;
   color: #fff;
   padding: 10px 0;
 }
@@ -18,7 +18,7 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: #6200ff;
+  background-color: #FFFFFF;
 }
 
 nav ul li {
@@ -54,11 +54,11 @@ main {
 }
 
 h2 {
-  color: #6200ea;
+  color: #FFFFFF;
 }
 
 .product-details h3 a {
-  color: #6200ea;
+  color: #FFFFFF;
 }
 
 .contact-area form {
@@ -79,6 +79,6 @@ input[type="text"], input[type="email"], textarea {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #6200ea;
+  background-color: #AB0749;
   color: #fff;
 }
