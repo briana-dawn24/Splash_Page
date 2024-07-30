@@ -76,6 +76,20 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 4px;
 }
 
+input[type="submit"] {
+  background-color: #FFFFFF;
+  color: #AB0749;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0e0e0;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
