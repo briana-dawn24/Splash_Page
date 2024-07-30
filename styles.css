@@ -49,6 +49,11 @@ h2 {
   color: #6200ea;
 }
 
+.product-details h3 a {
+  text-decoration: none;
+  color: #6200ea;
+}
+
 footer {
   background-color: #333;
   color: white;
