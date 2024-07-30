@@ -16,6 +16,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
   text-align: center;
   background-color: #4CAF50;
   overflow: hidden;
