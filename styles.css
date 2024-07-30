@@ -25,6 +25,14 @@ nav ul li {
   padding: 0 15px;
 }
 
+nav ul li a, .product-details h3 a {
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover, .product-details h3 a:hover {
+  text-decoration: underline;
+}
+
 nav ul li a {
   color: black;
   text-decoration: none;
@@ -50,12 +58,7 @@ h2 {
 }
 
 .product-details h3 a {
-  text-decoration: none;
   color: #6200ea;
-}
-
-.product-details h3 a:hover {
-  text-decoration: underline;
 }
 
 form {
