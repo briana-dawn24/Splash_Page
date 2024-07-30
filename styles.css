@@ -96,3 +96,18 @@ footer {
   background-color: #AB0749;
   color: #fff;
 }
+
+/* Adding Responsiveness */
+@media (max-width: 600px) {
+  main {
+    padding: 0 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+  }
+}
