@@ -41,25 +41,12 @@ main {
   padding: 0 20px;
 }
 
-.explanation {
-  padding: 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.show-content {
-  padding: 20px;
-  background-color: #fff;
+.explanation, .show-content, .contact-area {
+  margin-bottom: 40px;
 }
 
 .product-details h3 {
   margin-top: 0;
-}
-
-.contact-area {
-  padding: 20px;
-  background-color: #f4f4f4;
-  text-align: center;
 }
 
 footer {
