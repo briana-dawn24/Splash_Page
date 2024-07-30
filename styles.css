@@ -32,8 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #333;
-  border-radius: 4px;
+  text-decoration: underline;
 }
 
 .explanation {
