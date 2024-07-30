@@ -35,6 +35,12 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
 .explanation {
   padding: 20px;
   background-color: #f9f9f9;
