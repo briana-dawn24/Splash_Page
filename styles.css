@@ -54,6 +54,10 @@ h2 {
   color: #6200ea;
 }
 
+.product-details h3 a:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: #333;
   color: white;
