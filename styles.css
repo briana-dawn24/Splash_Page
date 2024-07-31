@@ -51,3 +51,19 @@ h1, h2, h3, h4, h5, h6 {
   width:970px;
 }
 
+/* Feature */
+.feature {
+  background:blue;
+  padding:18px;
+}
+
+.feature-inner {
+  margin:auto;
+  width:970px;
+}
+
+.feature-inner h1 {
+  color:#d3d3f9;
+  font-size:32px;
+}
+
