@@ -8,9 +8,12 @@ body {
 }
 
 header {
-  background-color: #333;
   color: #fff;
   padding: 10px 0;
+}
+
+header, footer {
+  background: linear-gradient(90deg, #333, #555);
 }
 
 *, *:before, *:after {
@@ -129,7 +132,6 @@ input[type="email"] {
 }
 
 footer {
-  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px 0;
