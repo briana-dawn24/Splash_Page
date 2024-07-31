@@ -53,8 +53,9 @@ main {
   margin-bottom: 20px;
 }
 
-.product-details h3 a {
-  color: #333333;
+.show-content a {
+  color: #007BFF;
+  text-decoration: none;
 }
 
 .contact-area form {
