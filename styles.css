@@ -102,10 +102,13 @@ input[type="text"], input[type="email"], textarea {
 }
 
 footer {
+  background-color: #333;
+  color: #fff;
   text-align: center;
-  padding: 20px 0;
-  background-color: #FFFFFF;
-  color: #333333;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Adding Responsiveness */
