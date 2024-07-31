@@ -138,8 +138,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #footerblurb-inner {
   margin:0 auto;
+  max-width: 100%;
   width:922px;
   padding:24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #footerblurb .column {
