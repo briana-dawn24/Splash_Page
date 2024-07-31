@@ -243,8 +243,10 @@ video {
 }
 
 /* Style rules for table */
-table{
-    border: 10px solid #6F4E37;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
 
 table th{
