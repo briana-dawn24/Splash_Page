@@ -40,3 +40,14 @@ h1, h2, h3, h4, h5, h6 {
   color:#d3d3f9;
 }
 
+/* Header */
+#header {
+  background:#fff;
+}
+
+#header-inner {
+  margin:0 auto;
+  padding:0;
+  width:970px;
+}
+
