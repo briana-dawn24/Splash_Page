@@ -237,8 +237,8 @@ video {
 
 article img {
     float: right;
-    width: 150px; /* Set a fixed width */
-    height: auto; /* Maintain aspect ratio */
+    width: 150px !important; /* Force the width to 150px */
+    height: auto !important; /* Maintain aspect ratio */
     object-fit: cover;
     position: relative;
     bottom: 50px;
