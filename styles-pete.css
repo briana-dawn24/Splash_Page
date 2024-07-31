@@ -237,13 +237,10 @@ video {
 
 article img {
     float: right;
-    width: 150px !important; /* Force the width to 150px */
-    height: auto !important; /* Maintain aspect ratio */
-    object-fit: cover;
-    position: relative;
-    bottom: 50px;
-    border: 10px solid #6F4E37;
-}
+    width: 150px !important;
+    height: auto !important;
+    border: 5px solid red !important;
+  }
 
 /* Style rules for table */
 table {
