@@ -97,8 +97,8 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 4px;
 }
 
-input[type="submit"]:hover {
-  background-color: #e0e0e0;
+.contact-area input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 footer {
