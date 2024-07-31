@@ -71,12 +71,15 @@ h2{
     font-size: 1.3em;
 }
 
-/* Style for rules for navigation area */
-nav{
+/* Style rules for navigation */
+nav {
+    background-color: #6F4E37;
     overflow: hidden;
     position: fixed;
+    width: 100%;
     top: 0;
     text-align: center;
+    z-index: 1000;
 }
 
 nav a{
