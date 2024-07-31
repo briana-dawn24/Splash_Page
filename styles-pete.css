@@ -225,7 +225,7 @@ video {
 }
 
 /* Style rules for article */
-.article {
+article {
     font-size: 1.3em;
     line-height: 1.6;
     max-width: 800px;
