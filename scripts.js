@@ -7,3 +7,8 @@ function generateText(sentenceCount){
 for (var i=0; i<sentenceCount; i++)
 document.write(bodyText[Math.floor(Math.random()*7)]+" ")
 }*/
+
+/* Script for footer-index */
+const yearElement = document.getElementById("year");
+const currentYear = new Date().getFullYear();
+yearElement.textContent = currentYear;
