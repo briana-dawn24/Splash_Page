@@ -6,13 +6,11 @@ body, header, nav, main, footer, h1, div, img, ul, article, figcaption, form, h2
     box-sizing: border-box;
 }
 
-/* Style rules for header */
-header img{
-    display: block;
-    margin: auto;
-    width: 20%;
-    border-radius: 50%;
-    border: 10px solid #6F4E37;
+/* Style rules for the body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EADDCA;
+    color: #333;
 }
 
 body{
