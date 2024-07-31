@@ -301,15 +301,17 @@ form input, form textarea {
     background-color: #D27D2D;
 }
 
+/* Style rules for footer */
 footer {
-    background-color: #f2f2f2;
+    background-color: #6F4E37;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
-  }
+}
   
-  .button-container {
+.button-container {
     margin-top: 20px;
-  }
+}
   
   .btnback {
     background-color: black;
