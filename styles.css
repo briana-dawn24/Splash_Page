@@ -19,17 +19,9 @@ h1, h2, h3, h4, h5, h6 {
   background:#fff;
 }
 
-header {
-  color: #fff;
-  padding: 10px 0;
-}
-
-header, footer {
-  background: linear-gradient(90deg, #333, #555);
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
+#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar {
+  margin:0;
+  padding:0;
 }
 
 nav ul {
