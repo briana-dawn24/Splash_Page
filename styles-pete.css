@@ -22,19 +22,11 @@ header img {
     border: 10px solid #6F4E37;
 }
 
-header{
-    animation-name: m;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-header h1{
+header h1 {
     text-align: center;
-    font-family: sans-serif;
-    text-shadow: 2px 2px;
-    animation-name: m;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    font-size: 2.5em;
+    color: #6F4E37;
+    text-shadow: 2px 2px #D27D2D;
 }
 
 .head{
