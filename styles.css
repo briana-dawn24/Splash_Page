@@ -20,6 +20,11 @@ nav ul {
   margin: 0;
 }
 
+nav ul li a:hover, nav ul li a:focus {
+  color: #ffcc00;
+  outline: none; /* Remove default focus outline */
+}
+
 nav ul li {
   display: inline;
   margin-right: 20px;
@@ -88,7 +93,7 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 4px;
 }
 
-nav ul li a, .contact-area input[type="submit"] {
+.contact-area input[type="submit"] {
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
