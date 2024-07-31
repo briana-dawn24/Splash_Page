@@ -38,7 +38,11 @@ main {
 }
 
 .explanation, .show-content, .contact-area {
-  margin-bottom: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 h2 {
