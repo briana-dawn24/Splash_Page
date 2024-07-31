@@ -235,13 +235,6 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-article img {
-    float: right;
-    width: 150px !important;
-    height: auto !important;
-    border: 5px solid red !important;
-  }
-
 /* Style rules for table */
 table {
     width: 100%;
