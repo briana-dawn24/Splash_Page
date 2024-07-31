@@ -3,13 +3,12 @@ html, #page {
   margin:0;
 }
 
-/* General reset and body styling */
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+body { 
+  margin:0;
+  padding:0;
+  width:100%;
+  color:#959595;
+  font:normal 12px/2.0em Sans-Serif;
 }
 
 header {
