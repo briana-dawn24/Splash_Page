@@ -235,11 +235,13 @@ video {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.article img {
+article img {
     float: right;
-    width: 200px;
+    width: 150px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
     object-fit: cover;
-    margin: 0 0 20px 20px;
+    position: relative;
+    bottom: 50px;
     border: 10px solid #6F4E37;
 }
 
