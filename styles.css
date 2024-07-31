@@ -75,6 +75,16 @@ main {
   text-decoration: underline;
 }
 
+/* Contact Area Styling */
+.contact-area {
+  flex: 0 0 50%; /* Take up half of the container width */
+  max-width: 600px; /* Optional: limit the maximum width */
+  box-sizing: border-box;
+  padding: 20px;
+  margin-left: auto; /* Center the form within its container */
+  margin-right: auto; /* Center the form within its container */
+}
+
 .contact-area form {
   display: flex;
   flex-direction: column;
