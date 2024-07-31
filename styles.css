@@ -120,51 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   padding:0 20px 0 15px;
 }
 
-#content #sidebar {
-  padding:0;
-  float:left;
-  width:200px;
-}
-
-#content #sidebar .widget {
-  margin:0 0 12px;
-  padding:8px 8px 8px 13px;
-  line-height:1.4em;
-}
-
-#content #sidebar .widget h3 a {
-  text-decoration:none;
-}
-
-#content #sidebar .widget ul {
-  margin:0;
-  padding:0;
-  list-style:none;
-  color:#959595;
-}
-
-#content #sidebar .widget ul li {
-  margin:0;
-}
-
-#content #sidebar .widget ul li {
-  padding:4px 0;
-  width:185px;
-}
-
-#content #sidebar .widget ul li a {
-  color:blue;
-  text-decoration:none;
-  margin-left:-16px;
-  padding:4px 8px 4px 16px;
-}
-
-#content #sidebar .widget ul li a:hover {
-  color:#d3d3f9;
-  font-weight:bold;
-  text-decoration:none;
-}
-
 /* Footerblurb */
 #footerblurb {
   background:#d3d3f9;
