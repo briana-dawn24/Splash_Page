@@ -213,13 +213,14 @@ main {
 }
 
 /* Style rules for video */
-video{
+video {
     height: 300px;
     width: 300px;
     float: right;
     margin: 0 auto;
     position: relative;
     bottom: 80px;
+    border: 10px solid #6F4E37;
 }
 
 /* Style rules for article */
