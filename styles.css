@@ -165,3 +165,23 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration:none;
 }
 
+/* Footerblurb */
+#footerblurb {
+  background:#d3d3f9;
+  color:blue;
+}
+
+#footerblurb-inner {
+  margin:0 auto;
+  width:922px;
+  padding:24px;
+}
+
+#footerblurb .column {
+  margin:0;
+  text-align:justify;
+  float:left;
+  width:250px;
+  padding:0 24px;
+}
+
