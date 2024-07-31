@@ -13,11 +13,6 @@ body {
     color: #333;
 }
 
-body{
-    height: 300px;
-    background-color: #EADDCA;
-}
-
 header{
     animation-name: m;
     animation-duration: 10s;
