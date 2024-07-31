@@ -95,10 +95,9 @@ nav a{
     padding: 27px 20px;
 }
 
-nav li{
+nav li {
     display: inline;
     font-size: 1em;
-    font-family: sans-serif;
 }
 
 /* Styles for main */
