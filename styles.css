@@ -40,10 +40,14 @@ nav ul li a {
   font-weight: 600;
 }
 
+/* Main content styling */
 main {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .explanation, .show-content, .contact-area {
