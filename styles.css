@@ -81,7 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 auto;
   padding:0px 0 0;
   height:37px;
-  float:right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #top-nav ul {
