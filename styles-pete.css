@@ -109,9 +109,9 @@ nav li {
     font-size: 1em;
 }
 
-/* Styles for main */
-main{
-    padding: 120px;
+/* Styles for the main content */
+main {
+    padding: 120px 20px;
     background-color: #EADDCA;
 }
 
