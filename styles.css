@@ -49,8 +49,8 @@ main {
   color: #333;
 }
 
-h2 {
-  color: #FF6F61;
+.show-content .product-details {
+  margin-bottom: 20px;
 }
 
 .product-details h3 a {
