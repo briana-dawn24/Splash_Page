@@ -17,7 +17,8 @@ body {
 header img {
     display: block;
     margin: 20px auto;
-    width: 10%;
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height to maintain the circular shape */
     border-radius: 50%;
     border: 10px solid #6F4E37;
 }
