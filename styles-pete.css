@@ -249,9 +249,10 @@ table {
     margin: 20px 0;
 }
 
-table th{
-    font-family: sans-serif;
-    text-shadow: 2px 2px;
+table th {
+    background-color: #D27D2D;
+    color: white;
+    font-weight: 600;
     padding: 15px;
     border: 10px solid #6F4E37;
 }
