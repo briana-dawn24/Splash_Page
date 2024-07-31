@@ -209,7 +209,6 @@ main {
     font-family: sans-serif;
 }
 
-
 /* Style rules for video */
 video{
     height: 300px;
@@ -221,9 +220,14 @@ video{
 }
 
 /* Style rules for article */
-article{
+.article {
     font-size: 1.3em;
-    font-family: sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article img{
