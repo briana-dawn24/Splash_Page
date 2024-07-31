@@ -88,13 +88,8 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 4px;
 }
 
-.contact-area input[type="submit"] {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 10px 20px;
-  border-radius: 4px;
+nav ul li a, .contact-area input[type="submit"] {
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .contact-area input[type="submit"]:hover {
