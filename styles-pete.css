@@ -98,6 +98,12 @@ nav a {
     transition: color 0.3s ease, background-color 0.3s ease;
 }
 
+nav a:hover {
+    background-color: #D27D2D;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 nav li {
     display: inline;
     font-size: 1em;
