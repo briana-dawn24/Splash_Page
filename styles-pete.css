@@ -286,29 +286,17 @@ form input, form textarea {
     border-radius: 4px;
 }
 
-.fName{
-    font-family: sans-serif;
+.submit {
+    background-color: #6F4E37;
+    color: white;
     font-size: 1.3em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.lName{
-    font-family: sans-serif;
-    font-size: 1.3em;
-}
-
-.email{
-    font-family: sans-serif;
-    font-size: 1.3em;
-    position: relative;
-    left: 48px;
-}
-
-.submit{
-    font-family: sans-serif;
-    font-size: 1.3em;
-    position: relative;
-    left: 180px;
-}
 footer {
     background-color: #f2f2f2;
     padding: 20px;
