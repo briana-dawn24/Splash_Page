@@ -45,6 +45,10 @@ main {
   padding: 20px;
 }
 
+.explanation h2, .show-content h2, .contact-area h2 {
+  color: #333;
+}
+
 h2 {
   color: #FF6F61;
 }
