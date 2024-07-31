@@ -31,14 +31,10 @@ nav ul li a {
   font-weight: 600;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
 main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .explanation, .show-content, .contact-area {
