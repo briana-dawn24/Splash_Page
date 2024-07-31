@@ -272,6 +272,12 @@ form {
     background-color: #FFFFFF;
 }
 
+form label, .formp {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
 .fName{
     font-family: sans-serif;
     font-size: 1.3em;
