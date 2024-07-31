@@ -206,8 +206,10 @@ main {
     border: 10px solid #6F4E37;
 }
 
-.captions{
-    font-family: sans-serif;
+.captions {
+    font-size: 1.1em;
+    color: #6F4E37;
+    margin-top: 10px;
 }
 
 /* Style rules for video */
