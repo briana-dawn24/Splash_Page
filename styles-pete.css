@@ -13,6 +13,15 @@ body {
     color: #333;
 }
 
+/* Style rules for the header */
+header img {
+    display: block;
+    margin: 20px auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #6F4E37;
+}
+
 header{
     animation-name: m;
     animation-duration: 10s;
