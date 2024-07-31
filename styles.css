@@ -148,8 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 #footerblurb .column {
   margin:0;
   text-align:justify;
-  float:left;
-  width:250px;
+  width: 30%;
   padding:0 24px;
 }
 
