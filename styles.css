@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style:none;
   padding:0;
   height:37px;
-  float:left;
+  display: flex;
 }
 
 #top-nav ul li {
