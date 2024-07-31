@@ -201,9 +201,8 @@ main {
     text-align: center;
 }
 
-.pictures img{
-    text-align: center;
-    width: 180px;
+.pictures img {
+    width: 100%;
     border: 10px solid #6F4E37;
 }
 
