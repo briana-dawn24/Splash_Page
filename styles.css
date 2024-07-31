@@ -13,6 +13,10 @@ header {
   padding: 10px 0;
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 nav ul {
   display: flex;
   justify-content: center;
