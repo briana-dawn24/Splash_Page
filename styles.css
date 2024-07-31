@@ -105,8 +105,7 @@ main {
 }
 
 input[type="text"],
-input[type="email"],
-textarea {
+input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -116,7 +115,13 @@ textarea {
 }
 
 .contact-area input[type="submit"] {
-  transition: color 0.3s ease, background-color 0.3s ease;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  align-self: flex-start; /* Aligns the button to the start of the form */
 }
 
 .contact-area input[type="submit"]:hover {
