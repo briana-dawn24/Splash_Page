@@ -263,13 +263,13 @@ table td {
 }
 
 /* Style rules for form */
-form{
-    width: 520px;
-    height: 270px;
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
     border: solid 10px #6F4E37;
-    box-sizing: border-box;
-    position: relative;
-    bottom: 30px;
+    background-color: #FFFFFF;
 }
 
 .fName{
