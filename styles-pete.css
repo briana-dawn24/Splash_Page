@@ -16,9 +16,9 @@ html, body {
 
 /* Style rules for the body */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #EADDCA;
-    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Style rules for the header */
