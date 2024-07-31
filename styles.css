@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 #content-inner {
   margin:0 auto;
   padding:10px 0;
+  max-width: 100%;
   width:970px;
   background: var(--white);
 }
