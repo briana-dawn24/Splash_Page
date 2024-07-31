@@ -297,6 +297,10 @@ form input, form textarea {
     transition: background-color 0.3s ease;
 }
 
+.submit:hover {
+    background-color: #D27D2D;
+}
+
 footer {
     background-color: #f2f2f2;
     padding: 20px;
