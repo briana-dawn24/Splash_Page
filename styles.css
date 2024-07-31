@@ -17,6 +17,10 @@ body {
   font:normal 12px/2.0em Sans-Serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark-blue);
+}
+
 #page {
   background:#fff;
 }
@@ -34,6 +38,7 @@ body {
 }
 
 #logo h1 a, h1 a:hover {
+  color: var(--dark-blue);
   text-decoration:none;
 }
 
