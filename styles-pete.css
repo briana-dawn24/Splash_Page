@@ -193,10 +193,12 @@ main {
 }
 
 /* Style rules for gallery */
-.pictures{
+.pictures {
     display: inline-block;
     width: 180px;
     padding: 18px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .pictures img{
