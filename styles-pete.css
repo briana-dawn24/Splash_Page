@@ -120,10 +120,8 @@ nav li {
 
 /* Styles for the main content */
 main {
-    max-width: 1200px; /* Increase this value as needed */
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px; /* Reduce padding if necessary */
+    padding: 120px 20px;
+    background-color: #EADDCA;
 }
 
 .aboutp{
