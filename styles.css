@@ -2,13 +2,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #AB0749;
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
 header {
-  background-color: #FFFFFF;
-  color: #fff;
+  background-color: #333333;
+  color: #FFFFFF;
   padding: 10px 0;
 }
 
@@ -18,7 +18,7 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: #333333;
 }
 
 nav ul li {
@@ -34,7 +34,7 @@ nav ul li a:hover, .product-details h3 a:hover {
 }
 
 nav ul li a {
-  color: black;
+  color: #333333;
   text-decoration: none;
   font-weight: 600;
 }
@@ -54,11 +54,11 @@ main {
 }
 
 h2 {
-  color: #FFFFFF;
+  color: #FF6F61;
 }
 
 .product-details h3 a {
-  color: #FFFFFF;
+  color: #333333;
 }
 
 .contact-area form {
@@ -78,7 +78,7 @@ input[type="text"], input[type="email"], textarea {
 
 input[type="submit"] {
   background-color: #FFFFFF;
-  color: #AB0749;
+  color: #FF6F61;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -93,8 +93,8 @@ input[type="submit"]:hover {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #AB0749;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #333333;
 }
 
 /* Adding Responsiveness */
