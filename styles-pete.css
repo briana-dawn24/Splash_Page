@@ -120,10 +120,11 @@ nav li {
 
 /* Styles for the main content */
 main {
-    max-width: 1200px; /* Increase this value as needed */
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px; /* Reduce padding if necessary */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutp{
