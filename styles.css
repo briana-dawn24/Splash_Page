@@ -1,3 +1,8 @@
+html, #page { 
+  padding:0;
+  margin:0;
+}
+
 /* General reset and body styling */
 body {
   font-family: 'Open Sans', sans-serif;
