@@ -101,28 +101,6 @@ h1, h2, h3, h4, h5, h6 {
   padding:0 20px 0 15px;
 }
 
-/* Footerblurb */
-#footerblurb {
-  background: var(--light-blue);
-  color: var(--main-blue);
-}
-
-#footerblurb-inner {
-  margin:0 auto;
-  max-width: 100%;
-  width:922px;
-  padding:24px;
-  display: flex;
-  justify-content: space-between;
-}
-
-#footerblurb .column {
-  margin:0;
-  text-align:justify;
-  width: 30%;
-  padding:0 24px;
-}
-
 /* Footer */
 #footer {
   background: var(--white);
