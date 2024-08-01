@@ -80,39 +80,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size:32px;
 }
 
-/* Menu */
-#top-nav {
-  margin:0 auto;
-  padding:0px 0 0;
-  height:37px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#top-nav ul {
-  list-style:none;
-  padding:0;
-  height:37px;
-  display: flex;
-}
-
-#top-nav ul li {
-  margin:0;
-  padding:0 0 0 8px;
-}
-
-#top-nav ul li a {
-  display:block;
-  margin:0;
-  padding:8px 20px;
-  color: var(--main-blue);
-  text-decoration:none;
-}
-
-#top-nav ul li.active a, #top-nav ul li a:hover {
-  color: var(--light-blue);
-}
-
 /* Content */
 #content-inner {
   margin:0 auto;
