@@ -33,11 +33,6 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--white);
 }
 
-#header, #footer, #top-nav, #content, #content #contentbar {
-  margin:0;
-  padding:0;
-}
-
 #header-inner, .feature-inner, #content-inner, #footer-inner {
   display: flex;
   flex-direction: column;
