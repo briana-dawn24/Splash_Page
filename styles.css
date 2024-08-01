@@ -6,6 +6,10 @@
   --grey: #959595;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, #page { 
   padding:0;
   margin:0;
