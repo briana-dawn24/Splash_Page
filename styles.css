@@ -54,9 +54,10 @@ a:hover, button:hover {
 
 /* Logo */
 #logo {
-  padding:0;
-  width:auto;
-  float:left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 #logo h1 a, h1 a:hover {
