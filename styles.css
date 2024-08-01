@@ -118,6 +118,11 @@ form input, form textarea {
   box-sizing: border-box;
 }
 
+form input:focus, form textarea:focus {
+  outline: 2px solid var(--main-blue);
+  border-color: var(--main-blue);
+}
+
 form button {
   background-color: var(--main-blue);
   color: var(--white);
