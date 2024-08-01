@@ -169,3 +169,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--main-blue);
   text-decoration:none;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  #top-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
