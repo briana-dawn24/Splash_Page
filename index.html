@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <script src = "scripts.js"></script>
-        <title>Splash Page ~ Bri</title>
-    </head>
-    <body>
-        <div id = "page">
-            <header id = "header">
-                <div id = "header-inner">
-                    <div id = "logo">
-                        <h1><a href = "#">Cool<span>Logo</span></a></h1>
-                    </div>
-                </div>
-            </header>
-            <div class = "feature">
-                <div class = "feature-inner">
-                    <h1>Briana Campbell</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Splash Page ~ Bri</title>
+</head>
+<body>
+    <div id="page">
+        <header id="header">
+            <div id="header-inner">
+                <div id="logo">
+                    <h1><a href="#">Cool<span>Logo</span></a></h1>
                 </div>
             </div>
-            <div id = "content">
-                <div id = "content-inner">
-                    <main id = "contentbar">
-                        <div class = "article">
-                            <h2>About Me</h2>
-                            <p>I am a web developer specializied in front-end design and user experience.</p>
-
-                            <h2>Resume</h2>
-                            <p>Download my <a href = "#" target = "_blank">resume</a> to learn more about my work experience and skills.</p>
-                            
-                            <h2>Contact</h2>
-                            <p>Email me at <a href ="mailto:brianacampbell2019@gmail.com">brianacampbell2019@gmail.com</a> or use the form below:</p>
-                            <form action = "mailto:briancampbell2019@gmail.com" method = "post" enctype = "text/plain">
-                                <input type = "text" name = "name" placeholder = "Your Name" required>
-                                <input type = "email" name = "email" placeholder = "Your Email" required>
-                                <textarea name = "message" placeholder = "Your Message" required></textarea>
-                                <button type = "submit">Send</button>
-                            </form>
-                        </div>
-                    </main>
-                </div>
+        </header>
+        <div class="feature">
+            <div class="feature-inner">
+                <h1>Briana Campbell</h1>
             </div>
         </div>
-    <footer id = "footer">
-        <div id = "footer-inner">
-            <p>&copy; Copyright <span id="year"></span>Briana Campbell. All rights reserved.</p>
+        <div id="content">
+            <div id="content-inner">
+                <main id="contentbar">
+                    <section class="article">
+                        <h2>About Me</h2>
+                        <p>I am a web developer specialized in front-end design and user experience.</p>
+                    </section>
+                    <section class="article">
+                        <h2>Resume</h2>
+                        <p>Download my <a href="#" target="_blank">resume</a> to learn more about my work experience and skills.</p>
+                    </section>
+                    <section class="article">
+                        <h2>Contact</h2>
+                        <p>Email me at <a href="mailto:brianacampbell2019@gmail.com">brianacampbell2019@gmail.com</a> or use the form below:</p>
+                        <form action="mailto:briancampbell2019@gmail.com" method="post" enctype="text/plain">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="footer-inner">
+            <p>&copy; Copyright <span id="year"></span> Briana Campbell. All rights reserved.</p>
         </div>
     </footer>
-    </body>
+    <script>
+        // JavaScript to dynamically update the year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
