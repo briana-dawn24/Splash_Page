@@ -39,6 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header-inner, .feature-inner, #content-inner, #footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 90%;
   width: auto;
 }
