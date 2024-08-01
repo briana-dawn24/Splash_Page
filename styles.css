@@ -140,6 +140,10 @@ form button {
   border-radius: 5px;
 }
 
+form button:hover {
+  background-color: var(--dark-blue);
+}
+
 /* Footer */
 #footer {
   background: var(--white);
